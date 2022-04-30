@@ -1,6 +1,22 @@
 # AWS Amplify & react integration
 By following the AWS integration guide on https://docs.amplify.aws/start/q/integration/react/#what-well-build	
 
+Hosted on - https://dev.d3mvp5bagnt8ue.amplifyapp.com/
+
+
+Next steps:
+* Figure out where to find everything is configured - similar to Firebase menu - I'd like to know where the users are stored
+* Browse through documents and see how easy it is to setup stuff - https://docs.amplify.aws/lib/auth/social/q/platform/js/#full-samples
+* Setup project with REST interface instead of GraphQL
+* Setup project with ionic option
+* Setup project with Angular option
+
+So, when trying to understand the differences....
+
+You need to remember the region of the database - otherwise you can't find stuff! Region can be found in aws-exports.js
+Data is stored in DynamoDB  (compared to Firestore)
+If you want to know which apps you are having - go to Amplify console
+Creation stuff takes a bit more time - and react isn't very fast either
 
 
 # Getting Started with Create React App
